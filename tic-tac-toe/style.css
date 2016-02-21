@@ -1,0 +1,86 @@
+section {
+  margin: 0 auto;
+  overflow: auto;
+}
+
+section#game {
+  width: 128px;
+  padding-top: 10px;
+}
+
+section#game > div {
+  height: 40px;
+  width: 40px;
+  border: 2px solid #333;
+  float: left;
+}
+
+section#game > div > span {
+  display: block;
+  padding: 8px 0 0 14px;
+}
+
+section#game > div:nth-child(4),
+section#game > div:nth-child(7) {
+  clear: left;
+}
+
+section#game > div:nth-child(1),
+section#game > div:nth-child(2),
+section#game > div:nth-child(3) {
+  border-top: 0px;
+}
+
+section#game > div:nth-child(1),
+section#game > div:nth-child(4),
+section#game > div:nth-child(7) {
+  border-left: 0px;
+}
+
+section#game > div:nth-child(3),
+section#game > div:nth-child(6),
+section#game > div:nth-child(9) {
+  border-right: 0px;
+}
+
+section#game > div:nth-child(7),
+section#game > div:nth-child(8),
+section#game > div:nth-child(9) {
+  border-bottom: 0px;
+}
+
+section#players {
+  width: 200px;
+  margin: 10px auto;
+}
+
+section#players .playerOne,
+.playerTwo {
+  background: #0fa6d8;
+  padding: 10px;
+  float: left;
+}
+
+section#players .inactive {
+  opacity: .2;
+}
+
+section#players .playerTwo {
+  background: #33e20f;
+}
+
+#clear {
+  margin-top: 10px;
+  width: 100%;
+  background-color: #ff7200;
+  color: #FFF;
+  border-top: 1px solid #ff8c00;
+  border-bottom: 1px solid #ff8c00;
+  padding: 10px 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+#clear:Hover {
+  background: #f78d47;
+}
